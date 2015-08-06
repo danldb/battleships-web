@@ -7,4 +7,5 @@ group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'launchy'
+  gem 'byebug'
 end

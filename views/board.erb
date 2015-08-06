@@ -1,0 +1,8 @@
+<main>
+  <% if @name.nil? || @name.empty? %>
+    Welcome commander!
+  <% else %>
+    Welcome <%= @name %>
+  <% end %>
+  <pre><%=@board%></pre>
+</main>
